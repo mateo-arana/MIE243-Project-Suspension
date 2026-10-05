@@ -4,7 +4,7 @@ Also I think its best if we all stick to 1/10 OR 1/8 RC size. look it up
 
 | Component | Research Task | Responsible |
 |---|---|---|
-| **Tires / Wheel** | Compare: buy 1/10 RC wheel with 12 mm hex? 3D-print rim + cast silicone/polyurethane tire (3d print mold)? TPU-print whole tire? Compare price, grip (if we need it for dynamometer), durability, manufacturability, replaceability. |  |
+| **Tires / Wheel** | Compare: buy 1/10 RC wheel with 12 mm hex? 3D-print rim + cast silicone/polyurethane tire (3d print mold)? TPU-print whole tire? Compare price, grip (if we need it for dynamometer), durability, manufacturability, replaceability. | Emilaino "el guapo" rioja |
 | **Motor / Drivetrain** | Compare DC gearmotors by RPM, torque, power, price, and size. Use ~1/10-scale wheel diameter to estimate required wheel RPM. | Omer |
 | **Brakes** | Compare mechanical vs hydraulic brake. Find small disc/rotor options (sheet metal?). For hydraulic concept, list McMaster components for tubing, fittings, reservoir, piston/cylinder, seals (understand how brakes work first ofc). Estimate braking torque and clamping force. | Diego |
 | **Suspension** | Find suitable RC spring/damper units (1/10 RC size). Record extended length, compressed length, stroke, spring rate if available, mounting style, and price. Compare crawler vs buggy shocks. |  |

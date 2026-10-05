@@ -2,51 +2,94 @@
 
 ## Project Overview
 
-This project aims to develop a compact, low-cost classroom demonstrator for teaching undergraduate students about **vehicle suspension geometry and braking systems**.
+This project explores concepts for a compact, low-cost classroom platform that helps undergraduate students understand **vehicle suspension and braking systems** through hands-on interaction.
 
-The first design direction is a **single-wheel double-wishbone suspension module** with an integrated brake and powered wheel. The platform will allow students to physically modify suspension geometry, observe resulting changes in wheel motion and camber, and study braking behaviour.
+The project focuses on suspension geometry, wheel motion, braking behaviour, and tire-road interaction. Three candidate concepts are currently being developed and compared before selecting a final design direction.
 
-## Main Teaching Goals
+---
 
-- Demonstrate how **upper and lower control-arm geometry** affects camber gain.
-- Show why a **shorter upper control arm** is commonly used in double-wishbone suspension.
-- Simulate **vehicle body roll** by changing the chassis angle.
-- Observe how suspension geometry helps maintain tire orientation relative to the road.
-- Demonstrate the operation of a **disc braking system**.
-- Measure quantities such as wheel RPM, suspension displacement, camber angle, and potentially braking force.
+## Candidate Design 1 — Single-Wheel Suspension and Brake Dynamometer
 
-## Current Design Concept
+A single vehicle wheel is mounted to an adjustable suspension system with an integrated brake.
 
-The platform consists of:
+The wheel remains in contact with a second wheel or roller underneath it. The lower roller can rotate to drive the vehicle wheel and may also be used to measure wheel speed.
 
-- Adjustable **double-wishbone suspension**
-- Interchangeable/configurable control-arm geometry
-- Adjustable chassis roll angle
-- Spring and damper assembly
-- Powered wheel and drivetrain
-- Universal joint / sliding shaft arrangement
-- Disc brake system
-- Tire-road contact surface or roller
-- Sensors for relevant measurements
+Potential configurable features include:
 
-## Key Configurable Parameters
+- Upper and lower control-arm geometry
+- Chassis angle / simulated body roll
+- Spring and damper configuration
+- Brake input
 
-| Parameter | Purpose |
-|---|---|
-| Upper / lower control-arm geometry | Study camber gain |
-| Chassis roll angle | Simulate cornering/body roll |
-| Spring / damper configuration | Study suspension response |
-| Brake input | Study wheel deceleration and braking behaviour |
+Possible teaching topics:
+
+- Camber gain
+- Unequal-length double-wishbone suspension
+- Suspension travel
+- Tire-road contact
+- Braking and wheel deceleration
+
+---
+
+## Candidate Design 2 — Two-Wheel Motor-Driven Front Axle
+
+A model of a vehicle front axle using two independently suspended wheels equipped with brakes.
+
+The wheels are driven by an electric motor and can rotate before the brakes are applied.
+
+Potential configurable features include:
+
+- Suspension geometry
+- Spring and damper configuration
+- Brake input
+- Left/right suspension setup
+
+Possible teaching topics:
+
+- Front suspension architecture
+- Wheel rotation and braking
+- Suspension configuration
+- Interaction between braking and suspension components
+
+---
+
+## Candidate Design 3 — Two-Wheel Suspension and Brake Model with Moving Terrain
+
+Two suspended wheels sit on a powered moving belt that represents the road surface.
+
+The belt drives the wheels through tire-road friction and may include bumps or changing terrain to create suspension motion. Applying the wheel brakes produces braking forces through contact with the moving belt.
+
+Potential configurable features include:
+
+- Terrain profile
+- Suspension geometry
+- Spring and damper configuration
+- Brake input
+- Belt speed
+
+Possible teaching topics:
+
+- Suspension response to road disturbances
+- Tire-road interaction
+- Braking and friction
+- Wheel travel
+- Suspension behaviour under changing terrain
+
+---
 
 ## Current Research Areas
 
-- Wheel and tire manufacturing / sourcing
-- Motor and drivetrain selection
-- Brake architecture and components
-- RC-scale spring and damper selection
-- Double-wishbone suspension geometry
-- Sensors and measurement methods
+| Area | Main Questions |
+|---|---|
+| **Tires / Wheels** | Buy RC wheels, manufacture custom rims/tires, or 3D print components? |
+| **Motor / Drivetrain** | Required RPM, torque, power, gearing, shafts, and joints |
+| **Brakes** | Mechanical vs hydraulic actuation and suitable components |
+| **Suspension** | Suitable springs, dampers, control arms, and mounting methods |
+| **Suspension Geometry** | Camber gain, control-arm proportions, suspension travel, and body roll |
+| **Sensors / Measurement** | RPM, camber, displacement, braking force, and other measurable outputs |
+
+---
 
 ## Design Priorities
 
-**Low Cost · Configurable · Compact · Safe · Repairable · Easy to Manufacture · Educational**
+**Low Cost · Educational Value · Configurability · Safety · Compact Size · Manufacturability · Repairability**

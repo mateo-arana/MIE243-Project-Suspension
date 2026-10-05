@@ -1,5 +1,5 @@
 hi, in general for everything we need to justify our design decisions so research durability, manufacturability, replaceability.
-Also I think its best if we all stick to 1/10 OR 1/8 RC size. look it up
+Also I think its best if we all stick to 1/5 RC size. look it up
 <img width="640" height="360" alt="image" src="https://github.com/user-attachments/assets/014ce989-9846-44ff-9ee1-1797ea4f44fc" />
 
 | Component | Research Task | Responsible |

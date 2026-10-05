@@ -4,7 +4,7 @@
 
 This project aims to develop a compact, low-cost classroom demonstrator for teaching undergraduate students about **vehicle suspension geometry and braking systems**.
 
-The current design direction is a **single-wheel double-wishbone suspension module** with an integrated brake and powered wheel. The platform will allow students to physically modify suspension geometry, observe resulting changes in wheel motion and camber, and study braking behaviour.
+The first design direction is a **single-wheel double-wishbone suspension module** with an integrated brake and powered wheel. The platform will allow students to physically modify suspension geometry, observe resulting changes in wheel motion and camber, and study braking behaviour.
 
 ## Main Teaching Goals
 

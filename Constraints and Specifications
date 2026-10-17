@@ -1,0 +1,38 @@
+# Engineering Specifications: Suspension & Brake Teaching Platform
+
+## Constraints
+*A design that fails any of these is out, however well it scores later.*
+
+| ID | Constraint | Pass if |
+| :--- | :--- | :--- |
+| **C1** | Visibility | Brake rotor, caliper, both control arms and the spring/damper are in plain view from the student side; any guard is transparent |
+| **C2** | Scale | 1/5 RC parts: 170 mm tire, 24 mm hex, 1/5 RC shocks |
+| **C3** | Size | Footprint ≤ 700 × 500 mm and mass ≤ 10 kg, so it fits a lab bench and one person can carry it |
+| **C4** | Power | ≤ 24 V DC from an external adapter or bench supply; no mains wiring on the platform |
+| **C5** | Safety | Emergency stop within reach of the operator cuts motor power; rotating parts and nip points are guarded |
+| **C6** | Cost | Total parts cost within the course budget (amount TBD) |
+
+## Engineering Specifications
+*Each spec is measurable and tied to what students need to see. IDs: T teaching, S suspension, B brakes, W wheel and drive, X safety, F build.*
+
+| ID | Spec | Target |
+| :--- | :--- | :--- |
+| **T1** | Adjustable parameters | ≥ 3 independent settings (arm geometry, chassis/roll angle, spring/damper, brake input) |
+| **T2** | Time to change one setting | ≤ 2 min, tool-free or common hand tools |
+| **T3** | Live readouts | Wheel rpm, camber angle and suspension travel, readable from 1 m |
+| **S1** | Suspension layout | Unequal-length double wishbone, also settable to equal-length arms |
+| **S2** | Wheel travel | ≥ 50 mm, bump to droop |
+| **S3** | Camber change over full travel | About 0° with equal arms, ≥ 3° with unequal arms |
+| **S4** | Shock swap | 1/5 RC spring/damper swapped in ≤ 5 min |
+| **B1** | Brake layout | Disc brake, rotor ≥ 60 mm diameter, rotor and caliper uncovered |
+| **B2** | Stopping time from max speed | 0.5–3 s, set by how hard the brake is applied |
+| **B3** | Brake actuation | Hand lever, ≤ 50 N at the lever |
+| **B4** | Motor cut on braking | Motor power off whenever the brake is applied |
+| **W1** | Tire size | 170 mm OD, 24 mm hex (#2) |
+| **W2** | Max wheel surface speed | 2 m/s (about 225 rpm at 170 mm), variable down to 0 |
+| **W3** | Tire slip | No visible slip on the roller or belt at full brake (Designs 1 and 3) |
+| **W4** | Speed measurement | Wheel rpm within ±5% |
+| **X1** | Guarding | No finger access to nip points (tire–roller, belt rollers) with guards on |
+| **X2** | Stability | No tipping or sliding at max speed under full brake |
+| **F1** | Sourcing | ≥ 80% of parts by count off-the-shelf or 3D-printable |
+| **F2** | Wear-part replacement | Tire, brake pads, belt or shock replaced in ≤ 10 min with common hand tools |
